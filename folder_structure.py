@@ -49,27 +49,99 @@ def get_existing_structure():
     """
     existing_folders_and_files = {
         "System_Definition": {
-            "project_name_objectives.docx": [
-                "System Objectives",
-                "Scope",
-                "Requirements",
-                "Table of Contents (TOC)",
+            "system_objectives.docx": [
+                {"type": "heading", "text": "System Objectives"},
+                {"type": "paragraph", "text": "Define the objectives of the system."},
             ],
-            "data.xlsx": [
-                ["Data1", "Data2", "Data3"],
-                [1, 2, 3],
-                ["A", "B", "C"],
+            "scope.docx": [
+                {"type": "heading", "text": "Scope"},
+                {"type": "paragraph", "text": "Describe the scope of the project."},
+            ],
+            "requirements.docx": [
+                {"type": "heading", "text": "Requirements"},
+                {"type": "paragraph", "text": "List the high-level requirements."},
+            ],
+            "toc.docx": [
+                {"type": "heading", "text": "Table of Contents (TOC)"},
+                {"type": "paragraph", "text": "Add a table of contents here."},
             ],
         },
-        "Requirements": {},
-        "System_Architecture_Design": {},
-        "Detailed_Design": {},
-        "Verification_and_Validation": {},
-        "Integration_and_Testing": {},
-        "Documentation_and_Reporting": {},
-        "Configuration_Management": {},
-        "Lifecycle_Management": {},
-        "Risk_Management": {},
-        "Collaboration_and_Communication": {},
+        "Requirements": {
+            "software_requirements_specification.docx": [
+                {"type": "heading", "text": "Software Requirements Specification"},
+                {"type": "paragraph", "text": "Specify the software requirements."},
+            ],
+            "use_cases.docx": [
+                {"type": "heading", "text": "Use Cases"},
+                {"type": "paragraph", "text": "Define use cases for the system."},
+            ],
+            "user_stories.docx": [
+                {"type": "heading", "text": "User Stories"},
+                {"type": "paragraph", "text": "Create user stories for the project."},
+            ],
+        },
+        "System_Architecture_Design": {
+            "architecture_diagram.png": [],
+            "components.docx": [
+                {"type": "heading", "text": "System Components"},
+                {"type": "paragraph", "text": "Describe the system components."},
+            ],
+            "interfaces.docx": [
+                {"type": "heading", "text": "Interfaces"},
+                {"type": "paragraph", "text": "Define the system interfaces."},
+            ],
+        },
+        "Detailed_Design": {
+            "detailed_design.docx": [
+                {"type": "heading", "text": "Detailed Design"},
+                {"type": "paragraph", "text": "Provide detailed design specifications."},
+            ],
+        },
+        "Verification_and_Validation": {
+            "test_plan.docx": [
+                {"type": "heading", "text": "Test Plan"},
+                {"type": "paragraph", "text": "Define the testing strategy."},
+            ],
+            "test_cases.xlsx": [],
+        },
+        "Integration_and_Testing": {
+            "integration_plan.docx": [
+                {"type": "heading", "text": "Integration Plan"},
+                {"type": "paragraph", "text": "Plan the system integration."},
+            ],
+            "test_results.xlsx": [],
+        },
+        "Documentation_and_Reporting": {
+            "user_manual.docx": [
+                {"type": "heading", "text": "User Manual"},
+                {"type": "paragraph", "text": "Create a user manual for the system."},
+            ],
+            "project_report.docx": [
+                {"type": "heading", "text": "Project Report"},
+                {"type": "paragraph", "text": "Prepare a project report."},
+            ],
+        },
+        "Configuration_Management": {
+            "config_plan.docx": [
+                {"type": "heading", "text": "Configuration Management Plan"},
+                {"type": "paragraph", "text": "Define the configuration management process."},
+            ],
+        },
+        "Lifecycle_Management": {
+            "lifecycle_plan.docx": [
+                {"type": "heading", "text": "Lifecycle Management Plan"},
+                {"type": "paragraph", "text": "Outline the project's lifecycle management."},
+            ],
+        },
+        "Risk_Management": {
+            "risk_register.xlsx": [],
+        },
+        "Collaboration_and_Communication": {
+            "meeting_minutes.docx": [],
+            "communication_plan.docx": [
+                {"type": "heading", "text": "Communication Plan"},
+                {"type": "paragraph", "text": "Establish a communication plan for the project."},
+            ],
+        },
     }
     return existing_folders_and_files
