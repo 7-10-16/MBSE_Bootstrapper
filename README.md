@@ -3,10 +3,18 @@
 A command-line tool for quickly setting up MBSE project structures, made with Python.
 
 ## Features
-
+- ✍️ Generate custom Word (docx) documents.
+- 📊 Generate custom Excel (xls) spreadsheets.
 - 📂 Create project folder structures, template files with one command.
 - 🚴 Quick and Advanced setup options.
 - 🕺 Customizable template.
+
+## Upcoming
+- 🥧 Integration with my other tool [Text2Graph.](https://github.com/7-10-16/text2graph)
+- 🕹️ Text to UML diagram maker.
+
+## Future
+- Direct input from MBSE software (Zero manual data-entry)
 
 ## Installation
 
