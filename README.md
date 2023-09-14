@@ -1,6 +1,6 @@
 # MBSE Bootstrapper
 
-A command-line tool for quickly setting up MBSE project structures, made with Python.
+A command-line tool for quickly documenting MBSE project structures, made with Python.
 
 ## Features
 - ✍️ Generate custom Word (docx) documents.
