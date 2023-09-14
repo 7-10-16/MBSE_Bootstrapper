@@ -14,7 +14,7 @@ A command-line tool for quickly setting up MBSE project structures, made with Py
 - 🕹️ Text to UML diagram maker.
 
 ## Future
-- Direct input from MBSE software (Zero manual data-entry)
+- 🔮 Direct input from MBSE software (Zero manual data-entry)
 
 ## Installation
 
